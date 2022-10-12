@@ -1,0 +1,20 @@
+[                                                                                                                                                     
+    {                                                                                                                                                    
+      "title": "Escuadra",                                                                                                                                 
+      "price": 40.50,                                                                                                                                     
+      "image": "https://cdn3.iconfinder.com/data/icons/education-209/64/ruler-triangle-stationary-school-256.png",                                     
+      "id": 1                                                                                                                                              
+    },                                                                                                                                                   
+    {                                                                                                                                                    
+      "title": "Calculadora",                                                                                                                              
+      "price": 570.00,                                                                                                                                     
+      "image": "https://cdn3.iconfinder.com/data/icons/education-209/64/calculator-math-tool-school-256.png",                                          
+      "id": 2                                                                                                                                              
+    },                                                                                                                                                   
+    {                                                                                                                                                    
+      "title": "Goma de borrar",                                                                                                                          
+      "price": 200.10,                                                                                                                                     
+      "image": "https://cdn1.iconfinder.com/data/icons/photo-editor-3/24/i24_photoedit_eraser-256.png",                                   
+      "id": 3                                                                                                                                              
+    }                                                                                                                                                    
+  ]    
