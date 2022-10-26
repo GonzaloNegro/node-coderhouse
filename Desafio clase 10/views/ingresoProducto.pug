@@ -1,0 +1,28 @@
+html
+  head
+    title Ingreso productos
+    link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous")
+    script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous")
+    link(rel="stylesheet" href="/css/style.css")
+  body
+    h1(class="tituloCentrado textWhite") Ingrese un nuevo producto
+    div(class="container-fluid Centrado")
+        div(class="row")
+            div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12")
+                form(action="/api/productos" method="post" class="")
+                    div(class="form-floating mb-3")
+                        input(type="text" class="form-control" id="nombre" placeholder="Nombre" name="titulo" required)
+                        label(for="nombre") Nombre
+                    div(class="form-floating mb-3")
+                        input(type="number" class="form-control" id="precio" placeholder="Precio" name="precio" required)
+                        label(for="precio") Precio
+                    div(class="form-floating mb-3")  
+                        input(type="text" class="form-control" id="foto" placeholder="Foto" name="miniatura" required)
+                        label(for="foto") Foto
+                    div(class="form-floating mb-3 boton")
+                        input(class="btn btn-success" type="submit" value="Enviar")
+    div(class="container-fluid Centrado")
+        div(class="row")
+            div(class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12")
+                button(type="button" class="btn btn-primary")
+                    a(href="api/productos" class="textWhite") Listado de productos
