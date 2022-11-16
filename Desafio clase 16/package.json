@@ -1,0 +1,30 @@
+{
+  "name": "desafio-clase-16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dote": "^1.1.0",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "knex": "^2.3.0",
+    "moment": "^2.29.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nv": "^0.2.0",
+    "pug": "^3.0.2",
+    "socket.io": "^4.5.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
