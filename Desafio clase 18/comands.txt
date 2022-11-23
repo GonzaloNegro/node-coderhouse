@@ -1,0 +1,111 @@
+->  1) Crea DB.
+
+use ecommerce
+
+-> 2) Crear collection productos y mensajes.
+
+db.createCollection("productos")
+db.createCollection("mensajes")
+
+-> 3) Agregar 10 documentos a la colecction productos y mensajes.
+
+db.productos.insertMany([
+	{ title: "primero", value: 120, thumbnail: "sinMiniatura" },
+	{ title: "segundo", value: 580, thumbnail: "sinMiniatura" },
+	{ title: "tercero", value: 900, thumbnail: "sinMiniatura" },
+	{ title: "cuarto", value: 1280, thumbnail: "sinMiniatura" },
+	{ title: "quinto", value: 1700, thumbnail: "sinMiniatura" },
+	{ title: "sexto", value: 2300, thumbnail: "sinMiniatura" },
+	{ title: "septimo", value: 2860, thumbnail: "sinMiniatura" },
+	{ title: "octavo", value: 3350, thumbnail: "sinMiniatura" },
+	{ title: "noveno", value: 4320, thumbnail: "sinMiniatura" },
+	{ title: "decimo", value: 4990, thumbnail: "sinMiniatura" }
+	])
+
+db.mensajes.insertMany([
+	{ email: "test1@test.com", time: "19-11-2022 20:40:00", messsage: "test1" },
+	{ email: "test2@test.com", time: "19-11-2022 20:40:01", messsage: "test2" },
+	{ email: "test3@test.com", time: "19-11-2022 20:40:02", messsage: "test3" },
+	{ email: "test4@test.com", time: "19-11-2022 20:40:03", messsage: "test4" },
+	{ email: "test5@test.com", time: "19-11-2022 20:40:04", messsage: "test5" },
+	{ email: "test6@test.com", time: "19-11-2022 20:40:05", messsage: "test6" },
+	{ email: "test7@test.com", time: "19-11-2022 20:40:06", messsage: "test7" },
+	{ email: "test8@test.com", time: "19-11-2022 20:40:07", messsage: "test8" },
+	{ email: "test9@test.com", time: "19-11-2022 20:40:08", messsage: "test9" },
+	{ email: "test0@test.com", time: "19-11-2022 20:40:09", messsage: "test10" }
+	])
+
+-> 4) Listar todos los documentos de la colección productos y mensajes.
+
+db.productos.find()
+
+db.mensajes.find()
+
+-> 5) Cantidad de documentos en ambas colecciones.
+
+db.productos.countDocuments()
+
+db.mensajes.countDocuments()
+
+-> 6) Agregar documento a productos.
+
+db.productos.insertOne({ title: "onceavo", value: 3000, thumbnail: "sinMiniatura" })
+
+-> 7) Hacer consulta para encontrar un producto con nombre especifico (title).
+
+db.productos.find({title: "primero"})
+
+-> 8) Buscar productos con valor menor a 1000.
+
+db.productos.find({value: {$lt:1000}})
+
+-> 9) Buscar productos con valor entre 1000 y 3000.
+
+db.productos.find(
+  { 
+    $and: 
+      [ 
+        {value: {$gte: 1000}}, 
+        {value: {$lte: 3000} } 
+      ] 
+  }
+)
+
+-> 10) Buscar productos con valor mayor a 3000.
+
+db.productos.find({value: {$gt:3000}})
+
+-> 11) Realizar una consulta que traiga sólo el nombre del tercer producto más barato.
+
+db.productos.find({}, {"title": 1}).sort({"value": 1}).limit(1).skip(2)
+
+-> 12) Hacer una actualización sobre todos los productos, agregando el campo stock a todos ellos con un valor de 100.
+
+db.productos.update({},{$set:{"stock": 100}},{upsert:false,multi:true})
+
+-> 13) Cambiar el stock a cero de los productos con precios mayores a 4000 pesos.
+
+db.productos.updateMany({value: {$gt:4000}},{$set:{"stock": 0}},{upsert:false,multi:true})
+
+-> 14) Borrar los productos con precio menor a 1000 pesos.
+
+db.productos.deleteMany({value: {$lt: 1000}})
+
+-> 15) Crear un usuario: 'pepe' clave: 'asd456' que sólo pueda leer la base de datos ecommerce.
+
+db.createUser(
+  {
+    user: "pepe",
+    pwd: "asd456",
+    roles: [
+       { role: "read", db: "ecommerce" }
+    ]
+  }
+)
+
+-> 16) Verificar que pepe no pueda cambiar la información.
+
+db.productos.deleteOne({"title": "cuatro"})
+
+
+
