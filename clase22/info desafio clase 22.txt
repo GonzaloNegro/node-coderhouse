@@ -1,0 +1,18 @@
+---URLS---
+
+/api/productos
+
+GET: '/fackerMock' - mock con Facker de 5 productos al azar.
+
+/api/mensajes
+
+GET: '/todos' - Trae todos los mensajes de Mongo.
+GET: '/mormalizados' - Trae lo mensajes de Mongo y los normaliza. 
+GET: '/denormalizados' - Trae los mensajes de Mongo, los normaliza y luego los denormaliza nuevamente (no esta funcionando como debe!).
+
+Aclaraciones:
+
+1) Ruta no implementada -> { error : -2, descripcion: ruta 'x' método 'y' no implementada}
+
+
+

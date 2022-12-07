@@ -1,0 +1,10 @@
+[
+    {
+            "id": "test2@test.com", 
+            "nombre": "test", 
+            "apellido": "test", 
+            "edad": "20", 
+            "alias": "test",
+            "avatar": "test"
+    }
+]
