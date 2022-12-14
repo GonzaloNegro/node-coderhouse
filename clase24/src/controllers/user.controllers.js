@@ -5,13 +5,13 @@ const __dirname = path.dirname(__filename);
 
 const users = [
   {
-    nombre: "juan",
+    nombre: "Pedro",
   },
   {
     nombre: "jose",
   },
   {
-    nombre: "patricio",
+    nombre: "Gonzalo",
   },
 ];
 
