@@ -1,0 +1,375 @@
+[2023-01-31T19:06:19.955] [WARN] myLoggerWarn - PID MASTER= 26264
+[2023-01-31T19:14:33.439] [WARN] myLoggerWarn - PID MASTER= 4056
+[2023-01-31T19:14:54.253] [WARN] myLoggerWarn - PID MASTER= 3336
+[2023-01-31T19:15:03.931] [WARN] myLoggerWarn - PID MASTER= 14476
+[2023-01-31T19:15:08.461] [WARN] myLoggerWarn - PID MASTER= 28472
+[2023-01-31T19:18:44.056] [WARN] myLoggerWarn - PID MASTER= 7996
+[2023-01-31T20:04:24.263] [WARN] myLoggerWarn - PID MASTER= 18548
+[2023-01-31T20:09:48.558] [WARN] myLoggerWarn - PID MASTER= 16176
+[2023-01-31T20:11:39.903] [WARN] myLoggerWarn - PID MASTER= 21064
+[2023-01-31T20:11:43.061] [WARN] myLoggerWarn - PID MASTER= 22500
+[2023-01-31T20:13:29.408] [WARN] myLoggerWarn - PID MASTER= 18120
+[2023-01-31T20:15:13.956] [WARN] myLoggerWarn - PID MASTER= 7720
+[2023-01-31T20:15:36.616] [WARN] myLoggerWarn - PID MASTER= 32816
+[2023-01-31T20:16:00.590] [WARN] myLoggerWarn - PID MASTER= 35472
+[2023-01-31T20:18:33.205] [WARN] myLoggerWarn - PID MASTER= 4300
+[2023-01-31T20:23:03.612] [WARN] myLoggerWarn - PID MASTER= 18548
+[2023-01-31T20:23:22.592] [WARN] myLoggerWarn - Email enviado!
+[2023-01-31T20:23:22.592] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 686,
+  messageTime: 256,
+  messageSize: 726,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9mi6XUwMOH4ws57AAAAAvKdkwVh2DMR5FXBKTNE7xY]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<8f62f44c-a8e0-1bd0-015f-ab4cdcbd04f8@ethereal.email>'
+}
+[2023-01-31T20:50:48.003] [WARN] myLoggerWarn - PID MASTER= 27076
+[2023-01-31T20:51:12.852] [WARN] myLoggerWarn - PID MASTER= 30876
+[2023-01-31T20:52:21.636] [WARN] myLoggerWarn - PID MASTER= 35780
+[2023-01-31T20:53:12.900] [WARN] myLoggerWarn - PID MASTER= 3708
+[2023-01-31T20:55:57.475] [WARN] myLoggerWarn - PID MASTER= 9064
+[2023-01-31T20:57:22.678] [WARN] myLoggerWarn - PID MASTER= 28376
+[2023-01-31T21:05:13.582] [WARN] myLoggerWarn - PID MASTER= 2128
+[2023-01-31T21:06:13.178] [WARN] myLoggerWarn - PID MASTER= 32552
+[2023-01-31T21:06:33.962] [WARN] myLoggerWarn - PID MASTER= 8456
+[2023-01-31T21:06:59.248] [WARN] myLoggerWarn - PID MASTER= 18152
+[2023-01-31T21:07:52.528] [WARN] myLoggerWarn - PID MASTER= 25580
+[2023-01-31T21:08:30.783] [WARN] myLoggerWarn - PID MASTER= 27244
+[2023-01-31T21:09:58.031] [WARN] myLoggerWarn - PID MASTER= 35680
+[2023-01-31T21:12:17.870] [WARN] myLoggerWarn - PID MASTER= 24856
+[2023-01-31T21:13:17.433] [WARN] myLoggerWarn - PID MASTER= 19600
+[2023-01-31T21:13:57.026] [WARN] myLoggerWarn - PID MASTER= 35436
+[2023-01-31T21:14:25.627] [WARN] myLoggerWarn - PID MASTER= 26012
+[2023-01-31T21:14:31.544] [WARN] myLoggerWarn - PID MASTER= 27780
+[2023-01-31T21:14:38.040] [WARN] myLoggerWarn - PID MASTER= 35124
+[2023-01-31T21:16:12.325] [WARN] myLoggerWarn - PID MASTER= 29544
+[2023-01-31T21:21:52.243] [WARN] myLoggerWarn - PID MASTER= 1884
+[2023-01-31T21:25:37.228] [WARN] myLoggerWarn - PID MASTER= 25104
+[2023-01-31T21:29:39.418] [WARN] myLoggerWarn - PID MASTER= 21976
+[2023-01-31T21:30:04.075] [WARN] myLoggerWarn - PID MASTER= 14548
+[2023-01-31T21:30:15.445] [WARN] myLoggerWarn - PID MASTER= 16720
+[2023-01-31T21:31:55.959] [WARN] myLoggerWarn - PID MASTER= 11112
+[2023-01-31T21:32:08.007] [WARN] myLoggerWarn - PID MASTER= 17916
+[2023-01-31T21:35:26.202] [WARN] myLoggerWarn - PID MASTER= 28912
+[2023-01-31T21:37:08.321] [WARN] myLoggerWarn - Email enviado!
+[2023-01-31T21:37:08.321] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 684,
+  messageTime: 254,
+  messageSize: 1084,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9m0M3ntmnrqI8KsAAAAA2i0m.MbjxUn5uQpUMRt2fw]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<12c13d02-26fa-50de-c61c-23f4912fdbda@ethereal.email>'
+}
+[2023-01-31T21:55:12.563] [WARN] myLoggerWarn - PID MASTER= 29708
+[2023-01-31T22:05:29.838] [WARN] myLoggerWarn - PID MASTER= 13804
+[2023-01-31T22:06:53.467] [WARN] myLoggerWarn - Email enviado!
+[2023-01-31T22:06:53.467] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 723,
+  messageTime: 256,
+  messageSize: 1084,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9m7LOCSOiIUa1RwAAAABLS80vK8l6b53UdtR6ZKRNY]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<3e009b6e-dc22-98c2-7880-ce042074f8a2@ethereal.email>'
+}
+[2023-01-31T22:09:33.983] [WARN] myLoggerWarn - PID MASTER= 952
+[2023-01-31T22:10:25.998] [WARN] myLoggerWarn - Email enviado!
+[2023-01-31T22:10:25.998] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 719,
+  messageTime: 260,
+  messageSize: 1084,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9m8AOCSOiIUa1SFAAAABfwDSVKafWozypYGBT9s3lQ]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<82ace704-48bf-4a4d-25c3-16947970cca2@ethereal.email>'
+}
+[2023-01-31T22:16:54.019] [WARN] myLoggerWarn - PID MASTER= 11856
+[2023-01-31T22:17:36.343] [WARN] myLoggerWarn - Email enviado!
+[2023-01-31T22:17:36.343] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 729,
+  messageTime: 274,
+  messageSize: 1084,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9m9r3UwMOH4wtE3AAAABgyE5J.8iAy6tCv6x2Z8ff0]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<4bd5118d-4ac1-6f6b-81d1-41804b8513de@ethereal.email>'
+}
+[2023-01-31T22:20:20.045] [WARN] myLoggerWarn - Email enviado!
+[2023-01-31T22:20:20.045] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 681,
+  messageTime: 251,
+  messageSize: 1084,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9m-UnUwMOH4wtFJAAAABy8aNXBqQ1rsOxaUGrlqQ2Q]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<e7a5e279-8d0f-ef17-6e2d-f8ecffd7bbcc@ethereal.email>'
+}
+[2023-01-31T22:20:21.014] [WARN] myLoggerWarn - {
+  body: 'Sent from your Twilio trial account - Pedido recibido!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: '+12398803123',
+  to: '+541124084422',
+  dateUpdated: '2023-02-01T01:20:19.000Z',
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM9c542ebd55d6b52b9867db8c3d2d9c4b.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM9c542ebd55d6b52b9867db8c3d2d9c4b',
+  dateSent: null,
+  dateCreated: '2023-02-01T01:20:19.000Z',
+  errorCode: null,
+  priceUnit: 'USD',
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM9c542ebd55d6b52b9867db8c3d2d9c4b/Media.json'
+  }
+}
+[2023-01-31T22:26:55.997] [WARN] myLoggerWarn - PID MASTER= 31660
+[2023-01-31T22:30:14.645] [WARN] myLoggerWarn - PID MASTER= 35456
+[2023-01-31T22:32:37.964] [WARN] myLoggerWarn - PID MASTER= 14800
+[2023-01-31T22:34:06.353] [WARN] myLoggerWarn - PID MASTER= 19656
+[2023-01-31T22:38:47.744] [WARN] myLoggerWarn - PID MASTER= 27024
+[2023-01-31T22:39:16.721] [WARN] myLoggerWarn - PID MASTER= 24940
+[2023-01-31T22:42:27.701] [WARN] myLoggerWarn - PID MASTER= 22980
+[2023-01-31T22:45:53.312] [WARN] myLoggerWarn - PID MASTER= 18968
+[2023-01-31T22:47:17.315] [WARN] myLoggerWarn - PID MASTER= 35692
+[2023-01-31T22:48:31.590] [WARN] myLoggerWarn - PID MASTER= 26848
+[2023-01-31T22:49:09.225] [WARN] myLoggerWarn - PID MASTER= 26356
+[2023-01-31T22:50:43.766] [WARN] myLoggerWarn - PID MASTER= 35136
+[2023-01-31T22:54:35.329] [WARN] myLoggerWarn - PID MASTER= 33292
+[2023-01-31T22:55:33.214] [WARN] myLoggerWarn - PID MASTER= 25032
+[2023-01-31T22:59:15.894] [WARN] myLoggerWarn - PID MASTER= 35460
+[2023-01-31T23:00:10.038] [WARN] myLoggerWarn - PID MASTER= 28104
+[2023-01-31T23:04:59.944] [WARN] myLoggerWarn - PID MASTER= 15936
+[2023-01-31T23:08:10.133] [WARN] myLoggerWarn - PID MASTER= 35412
+[2023-01-31T23:08:27.243] [WARN] myLoggerWarn - PID MASTER= 25780
+[2023-01-31T23:08:48.925] [WARN] myLoggerWarn - PID MASTER= 18852
+[2023-01-31T23:09:05.182] [WARN] myLoggerWarn - PID MASTER= 33132
+[2023-01-31T23:09:13.242] [WARN] myLoggerWarn - PID MASTER= 26012
+[2023-01-31T23:12:42.902] [WARN] myLoggerWarn - PID MASTER= 17308
+[2023-01-31T23:13:22.271] [WARN] myLoggerWarn - PID MASTER= 31352
+[2023-02-01T00:01:58.206] [WARN] myLoggerWarn - PID MASTER= 8432
+[2023-02-01T00:04:12.955] [WARN] myLoggerWarn - Email enviado!
+[2023-02-01T00:04:12.955] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 698,
+  messageTime: 261,
+  messageSize: 720,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9nWq3UwMOH4wtNBAAAACJBeuEg7HWTDJeV5ea2JwUA]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<762aa9af-4e8b-29e2-2812-fa2f05b94371@ethereal.email>'
+}
+[2023-02-01T00:04:14.002] [WARN] myLoggerWarn - {
+  body: 'Sent from your Twilio trial account - Pedido recibido!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: '+12398803123',
+  to: '+541124084422',
+  dateUpdated: '2023-02-01T03:04:12.000Z',
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM3e3fbcce48398fe3d58fa043caf6fa87.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM3e3fbcce48398fe3d58fa043caf6fa87',
+  dateSent: null,
+  dateCreated: '2023-02-01T03:04:12.000Z',
+  errorCode: null,
+  priceUnit: 'USD',
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM3e3fbcce48398fe3d58fa043caf6fa87/Media.json'
+  }
+}
+[2023-02-01T00:06:31.336] [WARN] myLoggerWarn - PID MASTER= 31324
+[2023-02-01T00:06:59.072] [WARN] myLoggerWarn - Email enviado!
+[2023-02-01T00:06:59.073] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 692,
+  messageTime: 251,
+  messageSize: 720,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9nXUeCSOiIUa1a4AAAACezqVsfbcgz30rR657aCn5E]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<9fdda425-de77-f000-30e8-4e8be5d5792b@ethereal.email>'
+}
+[2023-02-01T00:07:00.078] [WARN] myLoggerWarn - {
+  body: 'Sent from your Twilio trial account - Pedido recibido!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: '+12398803123',
+  to: '+541124084422',
+  dateUpdated: '2023-02-01T03:06:58.000Z',
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SMac2953dc8ed4c7a86dcd2b3d8c78cd71.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SMac2953dc8ed4c7a86dcd2b3d8c78cd71',
+  dateSent: null,
+  dateCreated: '2023-02-01T03:06:58.000Z',
+  errorCode: null,
+  priceUnit: 'USD',
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SMac2953dc8ed4c7a86dcd2b3d8c78cd71/Media.json'
+  }
+}
+[2023-02-01T00:11:42.379] [WARN] myLoggerWarn - PID MASTER= 19320
+[2023-02-01T00:12:25.525] [WARN] myLoggerWarn - Email enviado!
+[2023-02-01T00:12:25.525] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 730,
+  messageTime: 275,
+  messageSize: 720,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9nYmHntmnrqI8VBAAAACk.o42GAbXMuMo-HJcbo4xY]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<fb73b141-3631-dd8c-3993-f86da829439a@ethereal.email>'
+}
+[2023-02-01T00:12:26.690] [WARN] myLoggerWarn - {
+  body: 'Sent from your Twilio trial account - Pedido recibido!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: '+12398803123',
+  to: '+541124084422',
+  dateUpdated: '2023-02-01T03:12:25.000Z',
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM47eacdb4e379b30ef6ca6914cdc01538.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM47eacdb4e379b30ef6ca6914cdc01538',
+  dateSent: null,
+  dateCreated: '2023-02-01T03:12:25.000Z',
+  errorCode: null,
+  priceUnit: 'USD',
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM47eacdb4e379b30ef6ca6914cdc01538/Media.json'
+  }
+}
+[2023-02-01T00:12:27.433] [WARN] myLoggerWarn - {
+  body: 'Se ingreso un pedido del usuario usuarioNuevo - patoPato. Gracias por su compra!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: 'whatsapp:+14155238886',
+  to: 'whatsapp:+541124084422',
+  dateUpdated: '2023-02-01T03:12:26.000Z',
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SMa70968dd38e2ae5c46ccaac484e9fe78.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SMa70968dd38e2ae5c46ccaac484e9fe78',
+  dateSent: null,
+  dateCreated: '2023-02-01T03:12:26.000Z',
+  errorCode: null,
+  priceUnit: null,
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SMa70968dd38e2ae5c46ccaac484e9fe78/Media.json'
+  }
+}
+[2023-02-01T00:15:05.655] [WARN] myLoggerWarn - PID MASTER= 15560
+[2023-02-01T00:16:01.748] [WARN] myLoggerWarn - Email enviado!
+[2023-02-01T00:16:01.748] [WARN] myLoggerWarn - {
+  accepted: [ 'mireille.ernser47@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 681,
+  messageTime: 249,
+  messageSize: 720,
+  response: '250 Accepted [STATUS=new MSGID=Y9mRw8h3AqQaGWhjY9nZcOCSOiIUa1bvAAAACzaUjptZtU4.lvJpz.iFZqI]',
+  envelope: {
+    from: 'mireille.ernser47@ethereal.email',
+    to: [ 'mireille.ernser47@ethereal.email' ]
+  },
+  messageId: '<c0540184-953b-2c12-2957-428234d80bdf@ethereal.email>'
+}
+[2023-02-01T00:16:03.523] [WARN] myLoggerWarn - {
+  body: 'Se ingreso un pedido del usuario usuarioNuevo - patoPato. Gracias por su compra!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: 'whatsapp:+14155238886',
+  to: 'whatsapp:+5491124084422',
+  dateUpdated: '2023-02-01T03:16:02.000Z',
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM8f7afd7d5c48a454687285d115a5314d.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM8f7afd7d5c48a454687285d115a5314d',
+  dateSent: null,
+  dateCreated: '2023-02-01T03:16:02.000Z',
+  errorCode: null,
+  priceUnit: null,
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM8f7afd7d5c48a454687285d115a5314d/Media.json'
+  }
+}
+[2023-02-01T11:28:16.323] [WARN] myLoggerWarn - PID MASTER= 30608
+[2023-02-01T11:31:42.603] [WARN] myLoggerWarn - PID MASTER= 18844
+[2023-02-01T11:33:56.951] [WARN] myLoggerWarn - PID MASTER= 19756
+[2023-02-01T11:36:43.241] [WARN] myLoggerWarn - PID MASTER= 26164
+[2023-02-01T11:37:42.217] [WARN] myLoggerWarn - PID MASTER= 6632
