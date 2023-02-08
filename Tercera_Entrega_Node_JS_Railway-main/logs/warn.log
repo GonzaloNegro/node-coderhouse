@@ -373,3 +373,159 @@
 [2023-02-01T11:33:56.951] [WARN] myLoggerWarn - PID MASTER= 19756
 [2023-02-01T11:36:43.241] [WARN] myLoggerWarn - PID MASTER= 26164
 [2023-02-01T11:37:42.217] [WARN] myLoggerWarn - PID MASTER= 6632
+[2023-02-08T11:20:31.673] [WARN] myLoggerWarn - Email enviado!
+[2023-02-08T11:20:31.673] [WARN] myLoggerWarn - {
+  accepted: [ 'rowena.kub@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 752,
+  messageTime: 268,
+  messageSize: 462,
+  response: '250 Accepted [STATUS=new MSGID=Y-OssmtzUsNXlK1QY-Ovr6D91CXnZOboAAAAAlcFks3evhQIcRgI1-cbUa8]',
+  envelope: {
+    from: 'rowena.kub@ethereal.email',
+    to: [ 'rowena.kub@ethereal.email' ]
+  },
+  messageId: '<0e018214-ddca-1053-2f82-6f23e7687d44@ethereal.email>'
+}
+[2023-02-08T11:29:45.637] [WARN] myLoggerWarn - Email enviado!
+[2023-02-08T11:29:45.637] [WARN] myLoggerWarn - {
+  accepted: [ 'rowena.kub@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 729,
+  messageTime: 267,
+  messageSize: 706,
+  response: '250 Accepted [STATUS=new MSGID=Y-OssmtzUsNXlK1QY-Ox2JY7pimPShIVAAAAA7t.X8fLrNy61Ak8lAcRQbg]',
+  envelope: {
+    from: 'rowena.kub@ethereal.email',
+    to: [ 'rowena.kub@ethereal.email' ]
+  },
+  messageId: '<ce7942ff-bad5-c4a5-0b0d-a3978fd9ea50@ethereal.email>'
+}
+[2023-02-08T11:29:48.468] [WARN] myLoggerWarn - {
+  body: 'Se ingreso un pedido del usuario usuarioNuevo - patoPato. Gracias por su compra!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: 'whatsapp:+14155238886',
+  to: 'whatsapp:+5491124084422',
+  dateUpdated: 2023-02-08T14:29:47.000Z,
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SMb0c796aebc26b91df7e369bdefee94aa.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SMb0c796aebc26b91df7e369bdefee94aa',
+  dateSent: null,
+  dateCreated: 2023-02-08T14:29:47.000Z,
+  errorCode: null,
+  priceUnit: null,
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SMb0c796aebc26b91df7e369bdefee94aa/Media.json'
+  }
+}
+[2023-02-08T11:35:52.803] [WARN] myLoggerWarn - Email enviado!
+[2023-02-08T11:35:52.803] [WARN] myLoggerWarn - {
+  accepted: [ 'rowena.kub@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 775,
+  messageTime: 303,
+  messageSize: 706,
+  response: '250 Accepted [STATUS=new MSGID=Y-OssmtzUsNXlK1QY-OzSHP6RWnMdad0AAAABEZCGeTEWrCxPXo7Vol6Yt4]',
+  envelope: {
+    from: 'rowena.kub@ethereal.email',
+    to: [ 'rowena.kub@ethereal.email' ]
+  },
+  messageId: '<4f598d50-7f65-a487-31de-cb2100094516@ethereal.email>'
+}
+[2023-02-08T11:35:55.474] [WARN] myLoggerWarn - {
+  body: 'Se ingreso un pedido del usuario usuarioNuevo - patoPato. Gracias por su compra!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: 'whatsapp:+14155238886',
+  to: 'whatsapp:+5491124084422',
+  dateUpdated: 2023-02-08T14:35:54.000Z,
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM85c163eda43d5bcfa3d2d3462a09710a.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM85c163eda43d5bcfa3d2d3462a09710a',
+  dateSent: null,
+  dateCreated: 2023-02-08T14:35:54.000Z,
+  errorCode: null,
+  priceUnit: null,
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM85c163eda43d5bcfa3d2d3462a09710a/Media.json'
+  }
+}
+[2023-02-08T11:39:02.114] [WARN] myLoggerWarn - Email enviado!
+[2023-02-08T11:39:02.115] [WARN] myLoggerWarn - {
+  accepted: [ 'rowena.kub@ethereal.email' ],
+  rejected: [],
+  ehlo: [ 'PIPELINING', '8BITMIME', 'SMTPUTF8', 'AUTH LOGIN PLAIN' ],
+  envelopeTime: 761,
+  messageTime: 272,
+  messageSize: 706,
+  response: '250 Accepted [STATUS=new MSGID=Y-OssmtzUsNXlK1QY-O0BZY7pimPShMRAAAABSAGxPV5qf2Q5oWRmEbOK0k]',
+  envelope: {
+    from: 'rowena.kub@ethereal.email',
+    to: [ 'rowena.kub@ethereal.email' ]
+  },
+  messageId: '<44c332fe-b8f1-909e-72bc-eb164bdb6095@ethereal.email>'
+}
+[2023-02-08T11:39:03.569] [WARN] myLoggerWarn - {
+  body: 'Sent from your Twilio trial account - Pedido recibido!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: '+12398803123',
+  to: '+541124084422',
+  dateUpdated: 2023-02-08T14:39:02.000Z,
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM80c826baf14db428299d6bd9a1d92022.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM80c826baf14db428299d6bd9a1d92022',
+  dateSent: null,
+  dateCreated: 2023-02-08T14:39:02.000Z,
+  errorCode: null,
+  priceUnit: 'USD',
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM80c826baf14db428299d6bd9a1d92022/Media.json'
+  }
+}
+[2023-02-08T11:39:05.028] [WARN] myLoggerWarn - {
+  body: 'Se ingreso un pedido del usuario usuarioNuevo - patoPato. Gracias por su compra!',
+  numSegments: '1',
+  direction: 'outbound-api',
+  from: 'whatsapp:+14155238886',
+  to: 'whatsapp:+541124084422',
+  dateUpdated: 2023-02-08T14:39:04.000Z,
+  price: null,
+  errorMessage: null,
+  uri: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM37131290c6694f3bdf7ea94e96af0ea1.json',
+  accountSid: 'ACb0d872f4a7fdbbc798c01801a0b26c56',
+  numMedia: '0',
+  status: 'queued',
+  messagingServiceSid: null,
+  sid: 'SM37131290c6694f3bdf7ea94e96af0ea1',
+  dateSent: null,
+  dateCreated: 2023-02-08T14:39:04.000Z,
+  errorCode: null,
+  priceUnit: null,
+  apiVersion: '2010-04-01',
+  subresourceUris: {
+    media: '/2010-04-01/Accounts/ACb0d872f4a7fdbbc798c01801a0b26c56/Messages/SM37131290c6694f3bdf7ea94e96af0ea1/Media.json'
+  }
+}

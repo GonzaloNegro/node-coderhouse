@@ -1239,3 +1239,96 @@
   port: 8080
 }
 [2023-02-01T11:37:42.218] [ERROR] myLoggerError - PID MASTER= 6632
+[2023-02-08T11:18:04.636] [ERROR] myLoggerError - Error: users validation failed: admin: Cast to Boolean failed for value "" (type string) at path "admin" because of "CastError", name: Path `name` is required., adress: Path `adress` is required., age: Path `age` is required., phone: Path `phone` is required., picture: Path `picture` is required.
+    at ValidationError.inspect (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\error\validation.js:50:26)
+    at formatValue (node:internal/util/inspect:780:19)
+    at inspect (node:internal/util/inspect:345:10)
+    at formatWithOptionsInternal (node:internal/util/inspect:2165:40)
+    at Object.format (node:internal/util/inspect:2019:10)
+    at basicLayout (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\log4js\lib\layouts.js:65:52)
+    at app (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\log4js\lib\appenders\file.js:98:23)
+    at D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\log4js\lib\log4js.js:43:5
+    at Array.forEach (<anonymous>)
+    at sendLogEventToAppender (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\log4js\lib\log4js.js:42:21) {
+  errors: {
+    admin: CastError: Cast to Boolean failed for value "" (type string) at path "admin" because of "CastError"
+        at SchemaBoolean.cast (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schema\boolean.js:209:11)
+        at SchemaBoolean.SchemaType.applySetters (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1201:12)
+        at model.$set (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:1421:22)
+        at model.$set (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:1146:16)
+        at model.Document (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:166:12)
+        at model.Model (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\model.js:121:12)
+        at new model (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\model.js:5038:15)
+        at Strategy.signup [as _verify] (file:///D:/Pato/Coder%20House/Node%20Js/deployRailwayTercerEntrega/src/services/auth.js:32:21)
+        at processTicksAndRejections (node:internal/process/task_queues:96:5) {
+      stringValue: '""',
+      messageFormat: undefined,
+      kind: 'Boolean',
+      value: '',
+      path: 'admin',
+      reason: [CastError],
+      valueType: 'string'
+    },
+    name: ValidatorError: Path `name` is required.
+        at validate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'name',
+      value: '',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    adress: ValidatorError: Path `adress` is required.
+        at validate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'adress',
+      value: '',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    age: ValidatorError: Path `age` is required.
+        at validate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'age',
+      value: '',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    phone: ValidatorError: Path `phone` is required.
+        at validate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'phone',
+      value: '',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    },
+    picture: ValidatorError: Path `picture` is required.
+        at validate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1346:13)
+        at SchemaString.SchemaType.doValidate (D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\schematype.js:1330:7)
+        at D:\Pato\Coder House\Node Js\deployRailwayTercerEntrega\node_modules\mongoose\lib\document.js:2903:18
+        at processTicksAndRejections (node:internal/process/task_queues:78:11) {
+      properties: [Object],
+      kind: 'required',
+      path: 'picture',
+      value: '',
+      reason: undefined,
+      [Symbol(mongoose:validatorError)]: true
+    }
+  },
+  _message: 'users validation failed'
+}
