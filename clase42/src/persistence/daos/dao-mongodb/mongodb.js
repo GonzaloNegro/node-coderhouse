@@ -42,4 +42,29 @@ export default class DaoMongoDB {
       console.log(error);
     }
   }
+
+  async updateProductById(id, title, description, code, photo, value, stock) {
+    try {
+      let product = await this.collection.findOne({ id: id });
+
+      const docUpdated = await this.collection.findByIdAndUpdate(
+        product._id,
+        { title, description, code, photo, value, stock },
+        { new: true }
+      );
+      return docUpdated;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  async deleteProductById(id) {
+    try {
+      const doc = await this.collection.findOne({ id: id });
+      await this.collection.findByIdAndDelete(doc._id);
+      return doc;
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

@@ -1,0 +1,18 @@
+{
+  "name": "cliente-http-axios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/axios.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/axios.js",
+    "dev": "nodemon src/axios.js",
+    "dev:axios": "nodemon src/axios.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0"
+  }
+}

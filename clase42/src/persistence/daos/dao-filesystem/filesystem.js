@@ -28,4 +28,20 @@ export default class DaoFile {
       console.log(error);
     }
   }
+
+  async updateProductById(id, title, description, code, photo, value, stock) {
+    try {
+      console.log("sin implementar!");
+    } catch (error) {
+      console.log(error);
+    }
+  }
+
+  async deleteProductById(id) {
+    try {
+      console.log("sin implementar!");
+    } catch (error) {
+      console.log(error);
+    }
+  }
 }

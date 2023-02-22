@@ -16,4 +16,22 @@ export default class ProductsRepository {
     const prodsDTO = asDto(products);
     return prodsDTO;
   }
+
+  async updateProductById(id, title, description, code, photo, value, stock) {
+    const prod = await this.dao.updateProductById(
+      id,
+      title,
+      description,
+      code,
+      photo,
+      value,
+      stock
+    );
+    return prod;
+  }
+
+  async deleteProductById(id) {
+    const prod = await this.dao.deleteProductById(id);
+    return prod;
+  }
 }
