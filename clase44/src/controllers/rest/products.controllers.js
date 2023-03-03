@@ -3,7 +3,7 @@ import {
   getAllProducts,
   updateProductById,
   deleteProductById,
-} from "../services/products.services.js";
+} from "../../services/rest/products.services.js";
 
 export const saveController = async (req, res) => {
   const { body } = req;
