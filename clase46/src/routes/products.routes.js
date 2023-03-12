@@ -1,16 +1,18 @@
-import { Router } from "express";
+import Router from "koa-router";
 import {
   saveController,
   getAllController,
   updateProductByIdController,
   deleteProductByIdController,
-} from "../controllers/rest/products.controllers.js";
+} from "../controllers/products.controllers.js";
 
-const router = Router();
+const router = new Router({
+  prefix: "/products",
+});
 
 router.post("/add", saveController);
 router.get("/list", getAllController);
 router.put("/:id", updateProductByIdController);
 router.delete("/:id", deleteProductByIdController);
 
-export default router;
+export default router.routes();

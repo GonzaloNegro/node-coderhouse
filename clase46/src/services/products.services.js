@@ -1,4 +1,4 @@
-import ProductsRepository from "../../persistence/repository/products.repository.js";
+import ProductsRepository from "../persistence/repository/products.repository.js";
 
 const productsRepository = new ProductsRepository();
 
