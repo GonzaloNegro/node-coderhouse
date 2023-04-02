@@ -1,0 +1,20 @@
+doctype html
+head
+    link(rel='stylesheet' href='/css/style-login.css')
+.login
+  h1 Login
+  form.form(method='post' action='http://localhost:8080/api/users/logIn')
+    p.field
+      input(type='text' name='username' placeholder='Username' required='')
+    p.field
+      input(type='password' name='password' placeholder='Password' required='')
+    p.submit
+      input(type='submit' name='sent' value='Login')
+  h1 SignUp
+  form.form(method='post' action='http://localhost:8080/api/users/signUp')
+    p.field
+      input(type='text' name='username' placeholder='Username' required='')
+    p.field
+      input(type='password' name='password' placeholder='Password' required='')
+    p.submit
+      input(type='submit' name='sent' value='SignUp')

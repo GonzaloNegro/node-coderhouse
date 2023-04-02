@@ -1,0 +1,416 @@
+paths:
+  /users/signUp:
+    post:
+      tags: 
+      - signUp
+      summary: Registra usuario nuevo en DB.
+      requestBody:
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+            example:
+              username: testCoder@gmail.com
+              password: 'CoderHouse'
+        required: true
+      responses:
+        200:
+          description: Se registró nuevo usuario correctamente.
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                   msg:
+                    type: string
+                    description: Mensaje de registro.
+        500:
+          description: error al registrar usuario.
+  /users/logIn:
+    post:
+      tags: 
+      - logIn
+      summary: Validacion de credenciales.
+      requestBody:
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+            example:
+              username: testCoder@gmail.com
+              password: 'CoderHouse'
+        required: true
+      responses:
+        200:
+          description: Se valido correctamente.
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                   msg:
+                    type: string
+                    description: Mensaje de registro.
+        500:
+          description: error al validar usuario.
+  /users/logout:
+    get:
+      tags:
+      - logOut
+      summary: Cierre de sesion. 
+      responses:
+        200:    # status code
+          description: Mensaje de cierre de sesion.
+          content:
+            application/json:
+              schema: 
+                type: string 
+        500:
+          description: error al cerrar sesion.
+  /products/add:
+    post:
+      tags: 
+      - Add product
+      summary: Agregar nuevo producto a lista.
+      requestBody:
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                name:
+                  type: string
+                price:
+                  type: number
+                stock:
+                  type: number
+                description:
+                  type: string
+            example:
+              name: Remera Coder
+              price: 150
+              stock: 14
+              description: Test Test
+        required: true
+      responses:
+        200:
+          description: Se agrego nuevo producto.
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                  name:
+                    type: string
+                  price:
+                    type: number
+                  stock:
+                    type: number
+                  description:
+                    type: string
+                  _id:
+                    type: string
+        500:
+          description: error al cargar producto.
+  /products:
+    get:
+      tags:
+      - Products list
+      summary: Retorna una lista de productos
+      responses:
+        200:
+          description: Array de productos.
+          content:
+            application/json:
+              schema: 
+                type: array
+                items: 
+                  type: object
+        401:
+          description: Error al listar productos.
+  /products/{id}:
+    get:
+      tags:
+      - Producto por ID
+      summary: Retorna un producto
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: string id
+      responses:
+        200:
+          description: Producto por ID
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties:
+                  name:
+                    type: string
+                    description: Nombre de producto
+                  description:
+                    type: string
+                    description: Descripcion del producto
+                  price:
+                     type: number
+                     description: Precio del producto
+                example:
+                  id: 64127035a25a7e9952c8b28d
+        401:
+          description: Error traer por ID
+    put:
+      tags:
+      - Update product
+      summary: Retorna un producto modificado
+      requestBody:
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                name:
+                  type: string
+                price:
+                  type: number
+                stock:
+                  type: number
+                description:
+                  type: string
+            example:
+              name: Remera Modificada
+              price: 500
+              stock: 140
+              description: Test Put
+        required: true
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: string id
+      responses:
+        200:
+          description: Producto Modificado
+          content:
+            application/json:
+              schema: 
+                type: object
+                properties:
+                  name:
+                    type: string
+                    description: Nombre de producto
+                  description:
+                    type: string
+                    description: Descripcion del producto
+                  price:
+                     type: number
+                     description: Precio del producto
+                example:
+                  id: 64127035a25a7e9952c8b28d
+        401:
+          description: Error al modificar produc
+    delete:
+      tags:
+      - Delete product
+      summary: Elimina producto
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: string id
+      responses:
+        200:
+          description: Se elimino un producto
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                   msg:
+                    type: string
+                example:
+                  id: 64127035a25a7e9952c8b28d
+        500:
+          description: error al eliminar producto
+  /cart:
+    post:
+      tags: 
+      - Create Cart
+      summary: Crea un nuevo carrito
+      responses:
+        200:
+          description: Se creo un nuevo carrito
+          content:
+            application/json:
+              schema: 
+                type: string 
+        500:
+          description: error al crear carrito.
+  /cart/{id}/products:
+    post:
+      tags: 
+      - Add product en cart
+      summary: Agregar nuevo producto al cart.
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: string id
+      requestBody:
+        content:
+          application/json:
+            schema: 
+              type: object
+              properties:
+                name:
+                  type: string
+                price:
+                  type: number
+                stock:
+                  type: number
+            example:
+              name: Remera Coder Test
+              price: 99
+              stock: 35
+        required: true
+      responses:
+        200:
+          description: Se agrego nuevo producto al cart
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                   msg:
+                    type: string
+              example:
+                id: 6424c3904fb50512514fd9dc
+        500:
+          description: error al cargar producto.
+    get:
+      tags:
+      - Cart products
+      summary: Retorna lista de productos en cart
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: string id
+      responses:
+        200:
+          description: Productos en cart
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  type: object
+              example:
+                id: 6424c3904fb50512514fd9dc
+        500:
+          description: error al traer productos en cart
+  /cart/{id}/products/{id_prod}:
+   delete:
+      tags:
+      - Delete cart product
+      summary: Elimina producto en cart
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: cart id
+        - in: path
+          name: id_prod
+          schema:
+            type: string
+          required: true
+          description: product id
+      responses:
+        200:
+          description: Se elimino un producto en cart
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                   msg:
+                    type: string
+                example:
+                  id: 6424c3904fb50512514fd9dc
+                  id_prod: a6fab6c3-f51e-453a-9ad9-cd4d829a99a2
+        500:
+          description: error al eliminar producto
+  /cart/{id}/buy:
+    get:
+      tags:
+      - Buy cart
+      summary: Se realiza compra de cart
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: string id
+      responses:
+        200:
+          description: Compra de cart, genera orden
+          content:
+            application/json:
+              schema:
+                type: array
+                items: 
+                  type: object
+              example:
+                id: 6424c3904fb50512514fd9dc
+        500:
+          description: error al comprar
+  /cart/{id}:
+    delete:
+      tags:
+      - Delete cart
+      summary: Elimina un carrito por Id
+      parameters:
+        - in: path
+          name: id
+          schema:
+            type: string
+          required: true
+          description: string id
+      responses:
+        200:
+          description: Se elimino un carrito
+          content: 
+            application/json:
+              schema:
+                type: object
+                properties:
+                   msg:
+                    type: string
+                example:
+                  id: 6424c3904fb50512514fd9dc
+        500:
+          description: error al eliminar cart.
+    

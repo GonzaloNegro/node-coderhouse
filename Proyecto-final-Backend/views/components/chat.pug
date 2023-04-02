@@ -1,0 +1,26 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css' integrity='sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk=' crossorigin='anonymous')
+  link(rel='stylesheet' href='css/style-chat.css')
+  title Coder Chat
+.chat-container
+  header.chat-header
+    h1
+      |  Chat CoderHouse 
+    form#emailForm
+    .form-control
+      label(for='email') Email   
+      input#email(type='email' name='email' placeholder='Ingrese su mail...' required='')
+  main.chat-main
+    .chat-messages
+  .chat-form-container
+    form#chat-form
+      input#msg(type='text' placeholder='Mensaje' required='' autocomplete='off')
+      button.btn
+        i.fas.fa-paper-plane
+        |  Enviar 
+script(src='/socket.io/socket.io.js')
+script(src='../../../public/js/cliente.js')
+
