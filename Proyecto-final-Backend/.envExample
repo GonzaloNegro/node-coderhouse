@@ -1,6 +1,0 @@
-MONGO_ATLAS_SRV='mongodb+srv://GonzaloNegro:bot7JS8kJ2Ts04Ao@cluster0.3ntoz7i.mongodb.net/coderhouse?retryWrites=true&w=majority'
-PUERTO=8080
-ADM_EMAIL='gonzalonnegro@gmail.com'
-SRV_EMAIL='gonzalonnegro@gmail.com'
-PASSWORD='wdkypsipweicrdrj'
-PORT_GMAIL=465
